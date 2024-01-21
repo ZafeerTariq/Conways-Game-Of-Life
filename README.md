@@ -4,3 +4,15 @@
 3) Tick speed can be changed form the slider in imgui menu (from 0.1 to 2).
 4) Tick speed of 0.1 means a genration every 0.1 seconds.
 5) Starts by default with [Gosper Glider Gun](https://conwaylife.com/wiki/Gosper_glider_gun).
+
+### Running
+You need to have SFML installed on your device.
+On debian based Linux it can be installed with
+```console
+sudo apt-get install libsfml-dev
+```
+After installing open a terminal in the location of this code and enter
+```console
+make && ./gol
+```
+This will make and run the program.
